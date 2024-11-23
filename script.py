@@ -14,4 +14,5 @@ def greet(who_to_greet):
 #print(greet('Corey'))
 r = requests.get('https://pamosys.net')
 print(r.status_code)
+print(r.ok)
 
